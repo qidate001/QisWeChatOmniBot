@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moments-plugin"
+version = "0.1.0"
+dependencies = ["pyautogui", "opencv-python"]
+
+[project.entry-points."omni_bot.plugins"]
+moments-plugin = "moments_plugin:MomentsPlugin"

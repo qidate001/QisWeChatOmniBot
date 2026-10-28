@@ -1,0 +1,29 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# 敏感配置
+accounts.yaml
+config.yaml
+config_*.yaml
+pid_*.txt
+
+# 运行时文件
+logs/
+runtime_images/
+
+# 个人素材与模板
+templates/*
+!templates/.gitkeep
+media/*
+!media/.gitkeep
+copywriting.txt
+
+# 忽略打包生成的元数据
+*.egg-info/
+
+# 忽略测试生成的临时图片
+test_image.png

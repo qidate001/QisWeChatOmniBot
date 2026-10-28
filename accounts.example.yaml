@@ -1,0 +1,16 @@
+scheduler:
+  min_interval_minutes: 30
+  max_interval_minutes: 40
+  execution_timeout: 25
+  account_interval_min_seconds: 15
+  account_interval_max_seconds: 45
+  
+
+accounts:
+  - name: "微信X号"
+    dbkey: "你的X号的dbkey"
+    port: 9876
+
+  - name: "微信Y号"
+    dbkey: "你的Y号的dbkey"
+    port: 9877
